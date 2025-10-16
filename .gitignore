@@ -1,0 +1,40 @@
+# Executables and build artifacts
+# -----------------------------
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.test
+*.prof
+
+# Go workspace file
+go.work
+
+# Dependency directories
+# ----------------------
+# Vendor directory (if used)
+vendor/
+
+# Package cache
+# Note: On Unix-like systems, this is often found in $GOCACHE.
+# This entry is a safeguard for systems where it might be in the project root.
+.cache/
+
+# Test results
+# ------------
+# Test binary directories (usually in the OS temp directory, but good to ignore)
+/test
+/tmp
+
+# Editor/OS temporary files
+# -------------------------
+# VSCode settings
+.vscode/
+
+# IDE files (e.g., GoLand, IntelliJ)
+.idea/
+
+# Common OS files
+.DS_Store
+Thumbs.db
